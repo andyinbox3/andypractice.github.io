@@ -1,0 +1,199 @@
+******************************************************************************************
+******************************************************************************************
+Lab ASSIGNMENT #1
+
+Course : COMP214 (Advance Database Objects)
+
+Term: Fall 2013
+
+Total Marks : 20
+
+Due Date: Monday, 23th September, 2013 at 9:00
+
+
+Mode of submission: Through Digital Dropbox the Asignment1 Link in e-centennial
+
+Student Name: ___________________
+
+Student ID: _____________________
+
+
+*************************************************
+IMPORTANT: Naming convention for assignment file.
+
+A01_Firstname-Lastame_COMP214_Section-no.
+
+e.g. A01_John-Smith_COMP214_061.txt
+
+
+
+***************************************************************************************
+***************************************************************************************
+
+
+>> Note: Employees is work tables for these queries
+
+
+Table: Employees
+
+_______________________________________________________________________________________________
+Employee   First_Name	   Last_Name	Dept	Hire_Date	Credit	    Phone   Manager_id
+Id					Code			Limit	    Ext		
+_______________________________________________________________________________________________
+
+201	   Susan	  Brown		Exe	01-Jun-1998	$30.00	    3484    (null)
+202	   Jim		  Kern		Sal	16-Aug-1999	$25.00	    8722    201
+203	   Martha	  Woods		Shp	02-Feb-2004	$25.00	    7591    201
+204	   Ellen	  Owens		Sal	01-Jul-2003	$15.00	    6830    202
+205	   Henry	  Perkins	Sal	01-Mar-2000	$25.00	    5286    202
+206	   Carol	  Rose		Act	null		null	    null    (null)
+207	   Dan		  Smith		Shp	01-Dec-2004	$25.00	    2259    203
+208	   Fred		  Campbell	Shp	01-Apr-2003	$30.00	    1752    203
+209	   Paula	  Jacobs	Mkt	17-Mar-1999	$15.00	    3357    201
+210	   Nancy	  Hoffman	Sal	16-Feb-2004	$25.00	    2974    203
+______________________________________________________________________________________________
+
+
+
+>> Write the query for the following tasks:Each query is of 2 marks.Provide your answers after each query.
+
+
+
+Task#1. List the following columns of the Employees table in this order:
+    first name, last name, hire_date, phone_ext and department code
+
+Change the name of the hire_date column to Date_of_Joining within the result table. List the employees from the Sales and Marketing department only.
+
+Sort the rows of the result table by the last_name column in descending order.
+
+-----
+
+SQL QUery:
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+Task#2. Write a SQL statement to add a new employee Rick Adam to the Employees table. Rick joined the Accounting department.
+His date of joining is 18th Sept, 2011. He works for manager with id: 203. He is  allotted any phone extension - 3757.
+His credit limit is set to $35.00
+-----
+SQL QUery:
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+Task#3. List the employees that have a phone number starting with 7 or whose names are starting with letter - 'N'. 
+Show the employee_id, first_name, last_name and phone_ext. Sort the rows by employee_id.
+
+-----
+SQL QUery:
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+Task#4. Using the Employees table, list the following columns:
+    dept_code, credit_limit, last_name, first_name
+    Place the columns in that order. Sort the rows by :
+    dept_code in ascending order
+    credit_limit in descending order
+    last_name in ascending order.
+And get only those employees who are having credit limits between 20 and 40.
+------
+Sql Query:
+    
+
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#5. From the Employees table, list the employee_id, first_name, last_name and credit_limit columns for employees 
+	with the first names: Martha, Carol, Nancy
+ 	Sort the rows by the last name.
+------
+SQl Query:
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#6. From the Employees table, get the department and credit limits for the employees  'Jim Kern'.
+
+------
+SQl Query:
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#7.  List the department and phone extension for all the employees who don't have a manager.
+     Sort the rows by the employee_id.
+----
+Sql Query:
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#8. Write a query to display distinct department codes and credit_limits.
+
+----
+SQl Query:
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#9. Delete all the employees who work for Shipping Department or who have manager_id null.
+
+----
+SQl Query:
+
+
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task#10. Increase the credit limits of all the employees by $15.00 who work for Accounting department. 
+
+----
+SQl Query:
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------END -------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
