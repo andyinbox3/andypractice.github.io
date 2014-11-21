@@ -6,7 +6,6 @@ change again froms erver
 ******************************************************************************************
 make change from local1
 add branch from master 1
-add content 1
 
 
 Lab ASSIGNMENT #1
